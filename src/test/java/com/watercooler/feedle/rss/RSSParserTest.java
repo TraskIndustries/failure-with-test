@@ -31,6 +31,6 @@ public class RSSParserTest extends TestCase
         assertEquals("webmaster@example.com", feed.getWebMaster());
         assertEquals("http://to/my/image.png", feed.getImage());
 
-        assertEquals(4, feed.getEntries().size());
+        assertEquals(4, 1);
     }
 }
