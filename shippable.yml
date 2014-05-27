@@ -7,6 +7,5 @@ jdk:
 
 script: 
    - mkdir -p shippable/testresults/
-   - mvn clean install -DreportsDirectory=shippable/testresults
-   - cp target/surefire-reports/* shippable/testresults/
+   - mvn clean install 
 
